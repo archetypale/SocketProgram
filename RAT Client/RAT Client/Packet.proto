@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+package Info;
+
+message User {
+  optional string name = 1;
+  optional string date = 2;
+  optional string processor = 3;
+}
+
+message File {
+  optional bytes buffer = 1;
+  optional int32 size = 2;
+  }
+  
